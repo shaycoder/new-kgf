@@ -1,0 +1,41 @@
+.about-heading {
+    @mixin atMedium {
+        margin-top: 0;
+    }
+}
+
+.about {
+    &__desc {
+        p {
+            margin-bottom: 1.7rem;
+        }
+        &--btn {
+            width: 25%;
+            padding: 0.7rem 1rem;
+        }
+    }
+    @mixin atMedium {
+        display: flex;
+        gap: 50px;
+
+        &__desc {
+            flex: 1;
+
+            h3 {
+                margin-top: 0;
+            }
+
+            p {
+                font-weight: 500;
+                margin-bottom: 0;
+                @mixin atMedium {
+                    margin-bottom: 1.5rem;
+                }
+            }
+        }
+
+        &__img {
+            flex: 1;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    background-color: black;
+    color: $mainOrange; 
+    padding: 10px 14px;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,12 @@
+.btn {
+    background-color: $mainOrange;
+    color: #FFF;
+    text-decoration: none;
+    transition: transform .3s ease-out;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}

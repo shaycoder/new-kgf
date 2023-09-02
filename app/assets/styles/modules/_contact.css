@@ -1,0 +1,73 @@
+#contact {
+    /* background: url('./assets/images/kgf-bg.jpg') no-repeat fixed center;
+    background-size: 100% 100%;
+    @mixin atMedium {
+        background-size: cover;
+    } */
+    h3 {
+        padding: 0 3.4rem;
+        font-weight: 200;
+        color: #181818;
+        font-size: 1.9rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 4rem;
+    }
+}
+
+.contact-sec-parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-sec {
+    flex: auto;
+    @mixin atMedium {
+        flex: 1;
+    }
+}
+
+.contact-sec-bg {
+    background: rgb(221 221 221 / 20%);
+    @mixin atMedium {
+        background: antiquewhite;
+    } 
+}
+
+.contact {
+    color: #FFF;
+    padding: 0 3.6rem 0 3.6rem;
+
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+
+        label {
+            padding: .75rem 0;
+            font-weight: 200;
+            color: #3b3b3b;
+        }
+
+        &__input {
+            padding: .75rem 1.4rem;
+            outline: none;
+            border: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &__btn {
+            padding: .75rem 1.4rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+            border: none;
+            align-self: flex-start;
+        }
+    }
+}
+
+
+
